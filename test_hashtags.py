@@ -2,8 +2,6 @@ import csv_file_reader
 import csv_file_writer
 import os
 
-print ("sdjfa;lskgjawefg")
-
 hashtags_occ = {}
 
 for f in os.listdir('cleansed'):
