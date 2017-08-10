@@ -24,4 +24,3 @@ for key in sorted_keys:
     res.append([key,hashtags_occ[key]])
 csv_file_writer.write_csv('hashtags_occurrence.csv', res)
 
-
