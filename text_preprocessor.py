@@ -1,13 +1,11 @@
 """
 Written by Benyamin Bashari
 """
-
 import string
 import collections
 from nltk.tokenize import word_tokenize
 from nltk.stem import SnowballStemmer
 from nltk.corpus import stopwords
-
 
 class TextPreprocessor(object):
 
