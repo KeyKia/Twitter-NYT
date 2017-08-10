@@ -3,7 +3,6 @@ Written by Benyamin Bashari
 """
 import csv
 import scipy.io
-import numpy as np
 
 """
 input:
