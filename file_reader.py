@@ -23,6 +23,7 @@ def read(path):
 input:
     path of the file to read
 
+
 based on extention of the path read the file in specific format
 
 output:
