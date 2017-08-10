@@ -72,33 +72,5 @@ def read_mat(path):
     return dic['data']
 
 
-"""
-input:
-    path of the mat file containing vectors and labels
-output:
-    4 lists
-    train and test vectors
-    train and test labels
-"""
 
 
-def read_data_vectors(path):
-    vectors = scipy.io.loadmat(path)
-    test_vectors = vectors['test_vectors']
-    train_vectors = vectors['train_vectors']
-    train_labels = vectors['train_labels']
-    test_labels = vectors['test_labels']
-    return train_vectors, test_vectors, train_labels, test_labels
-
-
-"""
-input:
-    path of kernels
-output:
-    return two kernels train-train and test-train
-"""
-
-
-def load_kernel(path):
-    tmp = scipy.io.loadmat(path)
-    return tmp['train_train'], tmp['test_train']
