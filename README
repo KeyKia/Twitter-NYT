@@ -1,8 +1,8 @@
-'Word2Vec_twitter_model1' is a model that trained on all english twitter data with Word2Vec with below parameters:
+'Word2Vec_twitter_model1' is a model that trained on all english twitter data with Word2Vec
+ with below parameters:
 size=100
 window=75
 min_count=5
 iter=200
-------------------------------------------------------------------------------------------------------------------
-
+--------------------------------------------------------------------------------------------------
 
